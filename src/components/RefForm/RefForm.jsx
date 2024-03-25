@@ -6,8 +6,8 @@ const RefForm = () => {
     const passwordRef=useState(null);
 
     useEffect(() =>{
-        namRef.current.focus()
-    },[])
+        namRef.current.focus();
+    }, [])
     const handleSubmit = e => {
         e.preventDefault();
         console.log(namRef.current.value)
