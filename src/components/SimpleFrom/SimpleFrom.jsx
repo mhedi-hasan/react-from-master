@@ -1,7 +1,7 @@
 
 const SimpleFrom = () => {
 
-    const handleSubmit = e =>{
+    const handleSubmit = e => {
         e.preventDefault();
         console.log(e.target.name.value)
         console.log(e.target.email.value)
@@ -12,9 +12,9 @@ const SimpleFrom = () => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input type="text" name="name"/>
+                <input type="text" name="name" />
                 <br />
-                <input type="email" name="email"/>
+                <input type="email" name="email" />
                 <br />
                 <input type="text" name="phone" id="" />
                 <br />

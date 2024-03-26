@@ -1,18 +1,17 @@
-.grandpa div{
-    border: 2px solid peru;
-    padding: 5px 15px;
-    border-radius: 12px;
-   
+.grandpa div {
+  border: 2px solid peru;
+  padding: 5px 15px;
+  border-radius: 12px;
 
-    /* background-color: antiquewhite; */
+  /* background-color: antiquewhite; */
 }
-.grandpa{
-    border: 2px solid rgb(14, 225, 53);
-    padding: 15px;
-    border-radius: 12px;
-    justify-content: center;
+.grandpa {
+  border: 2px solid rgb(14, 225, 53);
+  padding: 15px;
+  border-radius: 12px;
+  justify-content: center;
 }
-.flex{
-    display: flex;
-    gap: 10px;
+.flex {
+  display: flex;
+  gap: 10px;
 }

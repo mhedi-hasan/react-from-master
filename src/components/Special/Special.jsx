@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { AssetContext } from "../Grandpa/Grandpa";
 
-const Special = ({asset}) => {
-    const gift=useContext(AssetContext)
+const Special = ({ asset }) => {
+    const gift = useContext(AssetContext)
     return (
         <div>
             <h2>Girlfriend</h2>

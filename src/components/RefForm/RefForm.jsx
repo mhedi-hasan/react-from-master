@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
 const RefForm = () => {
-    const namRef=useState(null);
-    const emailRef=useState(null);
-    const passwordRef=useState(null);
+    const namRef = useState(null);
+    const emailRef = useState(null);
+    const passwordRef = useState(null);
 
-    useEffect(() =>{
+    useEffect(() => {
         namRef.current.focus();
     }, [])
     const handleSubmit = e => {
@@ -17,17 +17,17 @@ const RefForm = () => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input 
-                ref={namRef}
-                type="text" name="name"/>
-                <br />
-                <input 
-                ref={emailRef}
-                type="email" name="email"/>
+                <input
+                    ref={namRef}
+                    type="text" name="name" />
                 <br />
                 <input
-                ref={passwordRef}
-                type="password" name="password" id="" />
+                    ref={emailRef}
+                    type="email" name="email" />
+                <br />
+                <input
+                    ref={passwordRef}
+                    type="password" name="password" id="" />
                 <br />
                 <input type="submit" value="Submit" />
             </form>

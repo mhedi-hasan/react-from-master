@@ -5,7 +5,7 @@ const HookForm = () => {
     const emailState = useInputState('hasan@gmail.com');
 
     const handleSubmit = e => {
-        console.log('from data',emailState.value)
+        console.log('from data', emailState.value)
         e.preventDefault();
     }
     return (

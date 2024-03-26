@@ -8,12 +8,13 @@ export const AssetContext = createContext('gold');
 export const MoneyContext = createContext(1000);
 
 const Grandpa = () => {
-    const [money,setMoney]=useState(1000);
+    const [money, setMoney] = useState(1000);
     const asset = 'Dimond';
     return (
         <div className="grandpa">
             <h2>Grandpa</h2>
-            <MoneyContext.Provider value={[money,setMoney]}>
+            <h3>Net Money : {money}</h3>
+            <MoneyContext.Provider value={[money, setMoney]}>
                 <AssetContext.Provider value="gold">
                     <section className="flex">
                         <Dad asset={asset}></Dad>
