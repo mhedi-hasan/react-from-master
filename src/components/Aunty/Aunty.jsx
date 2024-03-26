@@ -12,7 +12,7 @@ const Aunty = () => {
                 <Cousin name={'Sohan'}></Cousin>
                 <Cousin name={'Jannat'}></Cousin>
             </section>
-            <p>Money:{money}</p>
+            <h3>Money : {money}</h3>
             <button className="button" onClick={() => setMoney(money + 1000)}>Add 1000 tk</button>
         </div>
     );
